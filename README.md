@@ -13,6 +13,7 @@ Getting Oriented
 Each of the folders contain a specific set of files:
 - `apk-categorizer/` - categorize packages into their Google Play Store categories
 - `apk-downloader/` - download top apps from the Google Play Store
+- `data-accessories/` - scripts to clean data after it has been collected
 - `data/` - MongoDB dump of `runs` collection, which contains the original network requests
 - `entity-resolution/` - resolve hostnames to entity names
 - `find-fb-login/` - identify which packages might offer social login
@@ -34,7 +35,7 @@ Installation (Debian)
 - Disable sleep time in System settings
 - Install the mitmproxy certificate on the Android phone
 
-Usage
+Data Collection Usage
 ---
 - Ensure phone is disconnected from proxy and google to find its ip address
 - Log in to root on test machine
