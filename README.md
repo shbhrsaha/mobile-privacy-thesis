@@ -34,7 +34,7 @@ Installation (Debian)
 - Disable sleep time in System settings
 - Install the mitmproxy certificate on the Android phone
 
-Final Usage
+Usage
 ---
 - Ensure phone is disconnected from proxy and google to find its ip address
 - Log in to root on test machine
@@ -46,3 +46,4 @@ Final Usage
 - Run `nohup python privacy-accessories/request_queue_server.py &`
 - Run `nohup mitmdump --host -s privacy-accessories/trace.py &`
 - Run `nohup python chimp.py profiles/fb_dfs.yml &`
+- Logs are written to `runs.log`
