@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>EPIC: Extensive Privacy Incident Catalog</title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    </head>
+    <body> 
+        <h2><a href="/">EPIC: Extensive Privacy Incident Catalog</a></h2>
+        <ul>
+        {% for package in packages %}
+            <li>
+            <a href="/detail?package_title={{ package.package_title }}">
+                {{ package.package_title }}</a>
+            [{{ package.requests_flagged|length }}]
+            </li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>

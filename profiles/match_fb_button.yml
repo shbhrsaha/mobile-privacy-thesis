@@ -1,0 +1,3 @@
+# identifies apps as either using or not using fb login
+apk_dir: /media/shubhro/BOMBAY/mobile-privacy-research/apk-downloader
+apk_list: /media/shubhro/BOMBAY/mobile-privacy-research/profiles/publication_run/apks.txt

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Details for {{ package.package_title }}</title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    </head>
+    <body>
+        <h2><a href="/">EPIC: Extensive Privacy Incident Catalog</a></h2>
+        <h1>{{ package.package_title }}</h1>
+        <ul>
+        {% for request_data in package.requests_flagged %}
+            <li>
+                Shares <b>{{ request_data.flag }}</b> with {{ request_data.request.host }}
+                <div class="request-scroller">
+                    <b>URL:</b> <a href="{{ request_data.request.scheme }}://{{ request_data.request.host }}{{ request_data.request.path }}">{{ request_data.request.scheme }}://{{ request_data.request.host }}{{ request_data.request.path }}</a> <br />
+                    <b>Scheme:</b>  {{ request_data.request.scheme }} <br />
+                    <b>Host:</b>  {{ request_data.request.host }} <br />
+                    <b>Path:</b>  {{ request_data.request.path }} <br />
+                    <b>Content:</b> {{ request_data.request.content }} <br />
+                </div>
+            </li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>

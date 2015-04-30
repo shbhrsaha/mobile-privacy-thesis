@@ -1,0 +1,12 @@
+monkey: fb_dfs
+parameters:
+    facebook_app_code: "com.facebook.katana"
+    timeout: 120
+device_id: 072d3dad00e3330d
+apk_dir: /Volumes/BOMBAY/mobile-privacy-research/apk-downloader
+apk_list: /Volumes/BOMBAY/mobile-privacy-research/profiles/publication_run/apks.txt
+measure_privacy: True
+host_ip: 127.0.0.1
+mongo_port: 27017
+request_queue_port: 50000
+repeat: False
