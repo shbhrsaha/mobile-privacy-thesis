@@ -38,11 +38,7 @@ Final Usage
 ---
 - Ensure phone is disconnected from proxy and google to find its ip address
 - Log in to root on test machine
-- Set the following iptables rules, with the phone's ip address:
-    
-    iptables -A INPUT -p tcp -s xxx.xxx.xxx.xxx --dport 8080 -j ACCEPT
-    iptables -A INPUT -p tcp -s 0.0.0.0/0 --dport 8080 -j DROP
-
+- Set the following iptables rules, with the phone's ip address: `iptables -A INPUT -p tcp -s xxx.xxx.xxx.xxx --dport 8080 -j ACCEPT && iptables -A INPUT -p tcp -s 0.0.0.0/0 --dport 8080 -j DROP`
 - Connect the phone to the test machine's proxy. Test with mitmproxy
 - Ensure that phone is logged into Facebook app
 - Kill existing mongod processes
