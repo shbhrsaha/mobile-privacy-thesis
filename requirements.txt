@@ -2,7 +2,7 @@ backports.ssl-match-hostname==3.4.0.2
 certifi==14.5.14
 cffi==0.9.2
 ConfigArgParse==0.9.3
-cryptography==0.8.1
+cryptography==3.2
 enum34==1.0.4
 Flask==0.10.1
 gnureadline==6.3.3
