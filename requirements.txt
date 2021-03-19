@@ -9,7 +9,7 @@ gnureadline==6.3.3
 httplib2==0.9
 ipython==3.1.0
 itsdangerous==0.24
-Jinja2==2.7.3
+Jinja2==2.11.3
 jsonschema==2.4.0
 lxml==3.4.2
 MarkupSafe==0.23
