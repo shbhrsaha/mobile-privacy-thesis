@@ -25,7 +25,7 @@ npyscreen==4.8.6
 numpy==1.9.1
 passlib==1.6.2
 Pattern==2.6
-Pillow==2.8.1
+Pillow==8.2.0
 ptyprocess==0.4
 pyasn1==0.1.7
 pycparser==2.10
