@@ -22,7 +22,7 @@ Mopidy-Spotify==1.3.0
 netlib==0.11.2
 nose==1.3.4
 npyscreen==4.8.6
-numpy==1.9.1
+numpy==1.21.0
 passlib==1.6.2
 Pattern==2.6
 Pillow==2.8.1
