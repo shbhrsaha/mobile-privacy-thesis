@@ -14,7 +14,7 @@ jsonschema==2.4.0
 lxml==3.4.2
 MarkupSafe==0.23
 matplotlib==1.4.2
-mistune==0.5.1
+mistune==2.0.3
 mitmproxy==0.11.3
 mock==1.0.1
 Mopidy==1.0.0
