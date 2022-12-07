@@ -1,5 +1,5 @@
 backports.ssl-match-hostname==3.4.0.2
-certifi==14.5.14
+certifi==2022.12.7
 cffi==0.9.2
 ConfigArgParse==0.9.3
 cryptography==0.8.1
